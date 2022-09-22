@@ -1,9 +1,9 @@
 
 ## Streamlit Minimum Example
 
-Credit to Mark Sellors for the code. 
+Credit to https://github.com/sol-eng/python-examples/tree/main/streamlit-income-share for the code. 
 
-This is a streamlit example with minimal lines of code and minimal dependencies for an example to deploy to the hosting system of your choice. This could be useful when validating setup on the server, or for debugging an environment, or other scenarios. 
+This is a streamlit example with a more complex example and analysis. 
 
 ## Setup
 
@@ -67,7 +67,7 @@ rsconnect add \
     --name colorado
 ```
 
-Create the requirements file: 
+Create the requirements file. Running this will create both the requirements.txt (needed when deploying from Jupyter) and the manifest.json file (needed for git backed deployment): 
 
 ```
 rsconnect write-manifest streamlit ~/Projects/streamlit_min/
